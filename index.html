@@ -5,21 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Preentrega 2 Cristina Salazar</title>
+    <link rel="stylesheet" href="./main.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 </head>
 <body>
+
     <h1>Tienda de libros</h1>
-    <input type="text" id="filtrarP">Escribe el libro que deseas buscar
-    <form id="formulario"></form>
-    <label for="campoTexto">Escribe algo</label>
-    <button id="filtrar">Filtrar producto</button>
-    <input type="text" id="campoTexto">
-    <button type="submit">Enviar</button> 
-    <button id="verCarrito">Ver carrito</button> 
+
+<!-- Filtrar Productos -->
+
+    <div class="filtra">
+        <p>Escribe el libro que deseas buscar:</p>
+        <input type="text" id="filtrarP">
+        <button class="bFiltrar" id="filtrar">Filtrar</button>
+    </div>
+
+<!-- Carrito -->
+    <div class="bCarrito">
+        <p>Si deseas ver tu carrito:</p>
+        <button class="verCarrito" id="verCarrito">Ver carrito</button> 
+    </div>
 
 
-    <div id="contenidoTienda"></div>
-    <div id="tabla"></div>
+    <div id="shopContent" class="shop-content"></div>
 
+
+    <div id="tablaContenedor" class="tablaContenedor"> </div> 
+
+    <button class="bcompraExitosa" id="compraExitosa">Listo</button>
+
+
+
+
+
+  
 
 
     <script src="main.js"></script>

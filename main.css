@@ -1,0 +1,67 @@
+h3{
+    color:cornflowerblue;
+}
+
+.shop-content{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    margin-left: 80px;
+    margin-right: 80px;
+}
+.contenedorDeLibros{ 
+    max-width: 300px;
+    text-align: center;
+    border-color: aqua;
+    margin: auto;
+    border: 1px solid blue;
+}
+/* .contenedorDeLibros{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns:repeat(2, 3fr);
+    gap: 10rem;
+} */
+
+.agregar{
+    margin: 10px;
+}
+
+img{
+    max-width: 90%;
+    border-radius: 1rem;
+}
+
+.filtra{
+    display: flex;
+    flex-direction: column;
+    background-color:lightblue;
+    align-items: center;
+    border-radius: 1rem;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.bFiltrar{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.bCarrito{
+    display: flex;
+    flex-direction: column;
+    background-color:lightblue;
+    align-items: center;
+    border-radius: 1rem;
+    width: 20%;
+    margin-bottom: 20px;
+}
+
+.verCarrito{
+    margin-bottom: 20px;
+}
+
+.borrarProducto{
+    cursor: pointer;
+}
