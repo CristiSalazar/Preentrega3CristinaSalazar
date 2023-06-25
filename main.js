@@ -62,7 +62,7 @@ const tablaDeContenedor = document.getElementById("tablaContenedor")
 
 const verCarrito = document.getElementById("verCarrito")
 
-const pintarCarrito = () => {
+const llenarCarrito = () => {
     tablaDeContenedor.innerHTML= ""
     const tablaCompra = document.createElement("div");
     tablaCompra.className = "tablaCompra";
@@ -101,7 +101,7 @@ const pintarCarrito = () => {
 
 }
 
-verCarrito.addEventListener("click", pintarCarrito)
+verCarrito.addEventListener("click", llenarCarrito)
 
 // Eliminar del carrito
 const eliminarLibro = () => {
@@ -109,7 +109,7 @@ const eliminarLibro = () => {
     carrito = carrito.filter((carritoId) => {
        return carritoId !== encontrarID;
    });
-   pintarCarrito();
+   llenarCarrito();
 
 }
 
