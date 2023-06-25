@@ -1,0 +1,5 @@
+[
+{"id":1,"nombre":"El principito","precio":15000,"imagen":"./El_principito.jpg"},
+{"id":2,"nombre":"Don Quijote de la Mancha","precio":10000,"imagen":"./Don_Quijote_de_la_Mancha-Cervantes_Miguel-lg.png"},
+{"id":3,"nombre":"Mujercitas","precio":7000,"imagen":"./mujercitas.jpeg"},
+{"id":4,"nombre":"Orgullo y prejuicio","precio":8000,"imagen":"./orgullo-y-prejuicio.png"}]
